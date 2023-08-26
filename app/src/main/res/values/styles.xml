@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <declare-styleable name="cardStyle">
+        <attr name="cardStyle" format="reference" />
+        <attr name="colorPrimaryLight" format="color" />
+        <attr name="colorAccentLight" format="color" />
+        <attr name="colorAccentDark" format="color" />
+    </declare-styleable>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimaryLight">@color/primaryLightColor</item>
+        <item name="dividerHorizontal">@color/colorDivider</item>
+        <item name="dividerVertical">@color/colorDivider</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorAccentDark">@color/secondaryDarkColor</item>
+        <item name="colorAccentLight">@color/secondaryLightColor</item>
+    </style>
+
+    <style name="RobotoTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="RobotoBoldTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_condensed_bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MovieDetailsTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/secondaryDarkColor</item>
+        <item name="tabSelectedTextColor">@color/secondaryColor</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="android:layout_marginBottom">@dimen/margin_card_view</item>
+        <item name="android:layout_marginTop">@dimen/margin_card_view</item>
+        <item name="cardBackgroundColor">@color/secondaryLightColor</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardMaxElevation">@dimen/card_max_elevation</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+</resources>

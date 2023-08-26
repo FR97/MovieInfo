@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="large_padding">48dp</dimen>
+
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="margin_activity_small">8dp</dimen>
+    <dimen name="option_padding">4dp</dimen>
+
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="general_text_size">16sp</dimen>
+    <dimen name="title_text_size">34sp</dimen>
+    <dimen name="headline_text_size">24sp</dimen>
+
+    <dimen name="generic_margin">16dp</dimen>
+    <dimen name="sections_margin">28dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+
+    <!-- Common margin value used through out the app -->
+    <dimen name="default_margin">12dp</dimen>
+
+    <!-- Margin for fragment info -->
+    <dimen name="margin_vote_average">84dp</dimen>
+    <dimen name="margin_vote_ten">4dp</dimen>
+    <dimen name="margin_vote_count">24dp</dimen>
+    <dimen name="margin_cast">40dp</dimen>
+    <dimen name="margin_director">@dimen/margin_cast</dimen>
+    <dimen name="padding_vote_average_label">4dp</dimen>
+    <dimen name="margin_detail">24dp</dimen>
+
+    <!-- Size of ImageView in fragment info-->
+    <dimen name="size_person_image">18dp</dimen>
+    <dimen name="size_star_image">48dp</dimen>
+
+    <!-- Size of ImageView in trailer list item -->
+    <dimen name="width_video_thumb">300dp</dimen>
+    <dimen name="height_video_thumb">200dp</dimen>
+
+    <!-- Margin for the CardView in fragment_info -->
+    <dimen name="margin_card_view">5dp</dimen>
+
+    <!-- Padding for the TextView in list_item_movie -->
+    <dimen name="padding_list_text">4dp</dimen>
+
+    <!-- Size of the loading indicator in the activity_detail -->
+    <dimen name="progress_loading_size">72dp</dimen>
+    <!-- Size of play circle ImageView in the activity_detail -->
+    <dimen name="size_play_image">60dp</dimen>
+
+    <!-- Size of the cast image in the cast_list_item -->
+    <dimen name="width_cast_image">72dp</dimen>
+    <dimen name="height_cast_image">84dp</dimen>
+    <!-- Margin for the cast name TextView in the cast_list_item -->
+    <dimen name="margin_cast_name">24dp</dimen>
+    <!-- Margin for the cast character TextView in the cast_list_item -->
+    <dimen name="margin_cast_character">@dimen/margin_cast_name</dimen>
+    <!-- Height of the divider in the cast_list_item -->
+    <dimen name="height_divider">0.1dp</dimen>
+
+    <!-- CardView-->
+    <dimen name="card_corner_radius">0dp</dimen>
+    <dimen name="card_elevation">0.7dp</dimen>
+    <dimen name="card_max_elevation">1dp</dimen>
+    <dimen name="card_content_padding_zero">0dp</dimen>
+</resources>

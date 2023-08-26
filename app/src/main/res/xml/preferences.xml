@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Notifications"
+        android:summary="You will receive notifications for upcoming movies">
+        <SwitchPreference
+            app:key="notifications"
+            app:title="Enable notification messages" />
+        <ListPreference
+            android:key="daysBefore"
+            android:title="Days before release to notify"
+            android:defaultValue="7"
+            android:entries="@array/daysArray"
+            android:entryValues="@array/numbers" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Versions"
+        android:summary="Version Information">
+        <Preference
+            android:title="MovieInfo Version"
+            android:summary="1.0.2" />
+        <Preference
+            android:title="Minimum Android Version"
+            android:summary="Android 8.0 (Oreo)" />
+        <Preference
+            android:title="Suggested Android Version"
+            android:summary="Android 9.0 (Pie)" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

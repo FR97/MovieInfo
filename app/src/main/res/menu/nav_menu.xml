@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aboutFragment"
+        android:contentDescription="@string/cd_about"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/title_about" />
+
+    <item
+        android:id="@+id/homeFragment"
+        android:contentDescription="@string/cd_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:contentDescription="@string/cd_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/title_settings" />
+</menu>

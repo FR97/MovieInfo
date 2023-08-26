@@ -1,0 +1,16 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_loading_circle" >
+
+    <target
+        android:name="circle_1"
+        android:animation="@animator/progress_animator_circle" />
+
+    <target
+        android:name="circle_2"
+        android:animation="@animator/progress_animator_circle" />
+
+    <target
+        android:name="circle_3"
+        android:animation="@animator/progress_animator_circle" />
+</animated-vector>
